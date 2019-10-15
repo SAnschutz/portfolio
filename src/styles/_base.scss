@@ -1,0 +1,17 @@
+//colors
+$mustard: #feb249;
+$dark-blue: #002447;
+$teal: #53d3d1;
+$white: #fbeceb;
+
+*,
+body,
+html {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  background: $dark-blue;
+  color: $dark-blue;
+}

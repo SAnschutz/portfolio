@@ -1,0 +1,33 @@
+#projects-screen {
+  display: block;
+  position: relative;
+  width: 95%;
+  height: auto;
+  margin: 5vh auto;
+  border: 2px solid $dark-blue;
+  .content {
+    position: relative;
+    animation: fadeIn 0.5s;
+    img,
+    p {
+      display: block;
+      width: 60%;
+      margin: 0 auto;
+    }
+    .certificate {
+      width: 40%;
+    }
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
