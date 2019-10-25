@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.7e83cd1e.chunk.css",
+    "main.js": "/portfolio/static/js/main.61f15111.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.61f15111.chunk.js.map",
+    "runtime~main.js": "/portfolio/static/js/runtime~main.8ec3f299.js",
+    "runtime~main.js.map": "/portfolio/static/js/runtime~main.8ec3f299.js.map",
+    "static/js/2.2941fd4b.chunk.js": "/portfolio/static/js/2.2941fd4b.chunk.js",
+    "static/js/2.2941fd4b.chunk.js.map": "/portfolio/static/js/2.2941fd4b.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.808443321a0772d43649a7f60f147538.js": "/portfolio/precache-manifest.808443321a0772d43649a7f60f147538.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.7e83cd1e.chunk.css.map": "/portfolio/static/css/main.7e83cd1e.chunk.css.map",
+    "static/media/Chingu_Certificate.jpg": "/portfolio/static/media/Chingu_Certificate.16b55285.jpg",
+    "static/media/FCC_Certificate.png": "/portfolio/static/media/FCC_Certificate.01cb2c82.png",
+    "static/media/JobJarScreenshot.png": "/portfolio/static/media/JobJarScreenshot.9685879d.png",
+    "static/media/KDaceyScreenshot.png": "/portfolio/static/media/KDaceyScreenshot.b9f1cc28.png",
+    "static/media/MarsRoverScreenshot.png": "/portfolio/static/media/MarsRoverScreenshot.4272162a.png"
+  }
+}
