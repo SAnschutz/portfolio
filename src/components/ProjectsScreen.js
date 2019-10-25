@@ -26,7 +26,8 @@ export default function ProjectsScreen() {
             </a>
             <p>
               A full-stack application with React and CSS/SASS on the frontend,
-              and Node/Express, MongoDB/Mongoose on the backend.
+              and Node/Express, MongoDB/Mongoose on the backend, deployed on
+              Heroku.
             </p>
 
             <a
@@ -48,14 +49,14 @@ export default function ProjectsScreen() {
             </a>
             <p>
               Website built for a local small business, utilizing React and
-              HTML/CSS.
+              HTML/CSS, deployed on GitHub pages.
             </p>
             <a
               href='https://github.com/SAnschutz/KDaceyWebsite'
               target='_blank'
               rel='noopener noreferrer'
             >
-              KDacey Cakes GitHub repository
+              KDacey Portfolio GitHub repository
             </a>
           </div>
           <div className='project-description rover-app-description'>
@@ -72,9 +73,9 @@ export default function ProjectsScreen() {
             </a>
 
             <p>
-              Mars Rover is a full-stack application created as part of my
-              application to the Chingu program, with React and SASS on the
-              front end, and Node on the backend.
+              A full-stack application created as part of my application to the
+              Chingu program, with React and SASS on the front end, and Node on
+              the backend, deployed on Heroku.
             </p>
             <a
               href='https://github.com/SAnschutz/Chingu-tier-3-prework-app'
