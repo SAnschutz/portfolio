@@ -10,9 +10,8 @@ export default function ProjectsScreen() {
   return (
     <div id='projects-screen'>
       <div className='content'>
-        <div className='projects                                                                                           '>
-          <h1>Projects</h1>
-
+        <h1>Projects</h1>
+        <div className='projects'>
           <div className='project-description job-jar-description'>
             <a
               href='https://job-jar.herokuapp.com'
@@ -38,7 +37,6 @@ export default function ProjectsScreen() {
               Job-Jar GitHub repository
             </a>
           </div>
-
           <div className='project-description kathy-portfolio'>
             <a
               href='https://sanschutz.github.io/KDaceyWebsite/'
@@ -60,7 +58,6 @@ export default function ProjectsScreen() {
               KDacey Cakes GitHub repository
             </a>
           </div>
-
           <div className='project-description rover-app-description'>
             <a
               href='https://sanschutz-mars-rover-app.herokuapp.com'
@@ -87,31 +84,30 @@ export default function ProjectsScreen() {
               Mars Rover GitHub repository
             </a>
           </div>
+        </div>
+        <div className='product-description certifications'>
+          <h2>Certifications</h2>
 
-          <div className='product-description certifications'>
-            <h2>Certifications</h2>
-
-            <a
-              href='https://www.freecodecamp.org/certification/fcc24b1501f/full-stack'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              <h4>FreeCodeCamp Certificate of Completion </h4>
-              <img
-                src={FCCCertificate}
-                alt='FreeCodeCame certificate thumbnail'
-                className='certificate'
-              />
-            </a>
-            <h4 onClick={() => history.push('/chingucert')}>
-              Chingu (Voyage 10) Certificate of Completion
-            </h4>
+          <a
+            href='https://www.freecodecamp.org/certification/fcc24b1501f/full-stack'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <h4>FreeCodeCamp Certificate of Completion </h4>
             <img
-              src={ChinguCertificate}
-              alt='Chingu certificate thumbnail'
+              src={FCCCertificate}
+              alt='FreeCodeCame certificate thumbnail'
               className='certificate'
             />
-          </div>
+          </a>
+          <h4 onClick={() => history.push('/chingucert')}>
+            Chingu (Voyage 10) Certificate of Completion
+          </h4>
+          <img
+            src={ChinguCertificate}
+            alt='Chingu certificate thumbnail'
+            className='certificate'
+          />
         </div>
       </div>
     </div>

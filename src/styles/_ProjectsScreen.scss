@@ -1,13 +1,14 @@
 #projects-screen {
-  display: block;
   position: relative;
-  width: 95%;
-  height: auto;
-  margin: 5vh auto;
-  border: 2px solid $dark-blue;
+  top: 0;
+  left: 0;
+  height: 100%;
   .content {
-    position: relative;
     animation: fadeIn 0.5s;
+    h1 {
+      font-size: 3rem;
+      margin: 0 auto;
+    }
     img,
     p {
       display: block;
