@@ -25,3 +25,11 @@ body {
   padding: 5vh;
   border: 2px solid $dark-blue;
 }
+
+@media (max-width: 1150px) {
+  .content {
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+}

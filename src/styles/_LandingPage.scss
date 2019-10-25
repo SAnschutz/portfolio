@@ -6,6 +6,13 @@
   width: 3vw;
 }
 
+@mixin mobile-link {
+  margin: auto;
+  padding: 0;
+  height: 95vh;
+  width: 10vw;
+}
+
 //animation definitions
 
 @keyframes content-slide {
@@ -63,5 +70,32 @@
     margin: 0;
     margin-top: 40px;
     font-size: 2rem;
+  }
+}
+
+@media (max-width: 1150px) {
+  .landing-page {
+    padding: 2vh;
+
+    .about-div {
+      @include mobile-link;
+    }
+    .contact-div {
+      @include mobile-link;
+    }
+
+    .projects-div {
+      @include mobile-link;
+    }
+
+    .current-screen {
+      width: 95vw;
+      height: 95vh;
+    }
+
+    .link-label {
+      margin-top: 10px;
+      // font-size: 1rem;
+    }
   }
 }
